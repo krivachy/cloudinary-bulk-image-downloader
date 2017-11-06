@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const program = require('commander');
 const axios = require('axios');
 const https = require('https');
@@ -15,13 +17,13 @@ const _ = require('lodash');
 
 program
     .version('0.0.1')
-    .option('-u, --api-key <api-key>', 'Cloudinary API key (get from: https://cloudinary.com/console )')
-    .option('-p, --api-secret <api-secret>', 'Cloudinary API secret (get from: https://cloudinary.com/console )')
-    .option('-c, --cloud-name <cloud-name>', 'Cloudinary cloud name')
-    .option('-m, --max-result <max-result>', 'Maximum results to fetch from Cloudinary admin API, default 500')
-    .option('--max-parallelism <max-parallelism>', 'Maximum parallel images to download at once, default 5')
-    .option('--prefix <prefix>', 'Cloudinary prefix to filter on (e.g. folder)')
-    .option('-o --output <output>', 'Output folder to download images')
+    .option('-u, --api-key <api-key>', 'cloudinary API key (get from: https://cloudinary.com/console )')
+    .option('-p, --api-secret <api-secret>', 'cloudinary API secret (get from: https://cloudinary.com/console )')
+    .option('-c, --cloud-name <cloud-name>', 'cloudinary cloud name')
+    .option('-m, --max-result <max-result>', 'maximum results to fetch from Cloudinary admin API, default 500')
+    .option('--max-parallelism <max-parallelism>', 'maximum parallel images to download at once, default 5')
+    .option('--prefix <prefix>', 'cloudinary prefix to filter on (e.g. folder)')
+    .option('-o --output <output>', 'output folder to download images')
     .option('-v, --verbose', 'Verbose logging')
     .parse(process.argv);
 
