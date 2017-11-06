@@ -3,13 +3,11 @@
   "version": "0.0.1",
   "description": "Downloads all your uploaded images from Cloudinary",
   "main": "index.js",
-  "scripts": {
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/krivachy/cloudinary-bulk-image-downloader.git"
   },
-  "author": "",
+  "author": "Akos Krivachy",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/krivachy/cloudinary-bulk-image-downloader/issues"
