@@ -1,19 +1,21 @@
 {
   "name": "cloudinary-bulk-image-downloader",
-  "version": "1.0.0",
-  "description": "Downloads all your images from cloudinary",
+  "version": "0.0.1",
+  "description": "Downloads all your uploaded images from Cloudinary",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/krivachy/cloudinary-bulk-image-downloader.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/krivachy/cloudinary-bulk-image-downloader/issues"
+  },
+  "bin": {
+    "cloudinary-bulk-image-downloader": "./index.js"
   },
   "homepage": "https://github.com/krivachy/cloudinary-bulk-image-downloader#readme",
   "dependencies": {

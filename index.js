@@ -14,7 +14,7 @@ const _ = require('lodash');
  */
 
 program
-    .version('0.1.0')
+    .version('0.0.1')
     .option('-u, --api-key <api-key>', 'Cloudinary API key (get from: https://cloudinary.com/console )')
     .option('-p, --api-secret <api-secret>', 'Cloudinary API secret (get from: https://cloudinary.com/console )')
     .option('-c, --cloud-name <cloud-name>', 'Cloudinary cloud name')
